@@ -29,7 +29,7 @@
 .apollo-accordion {
     flex: 1;
     padding: 20px 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid #d0d8dc;
     transition: all 0.3s ease-in-out;
     flex-grow: 0;
 }
@@ -45,11 +45,21 @@
 }
 
 .apollo-accordion-title {
-    color: #2576b9;
+    color: #d0d8dc;
     font-size: 38px;
     text-transform: uppercase;
     cursor: pointer;
     margin: 0;
+}
+
+.apollo-accordion:first-child .apollo-accordion-title {
+    color: #2576b9;
+}
+
+.apollo-accordion:first-child .apollo-accordion-content {
+    display: block;
+    padding: 8px 8px 39px 8px;
+    height: auto;
 }
 
 .apollo-accordion-content-show {

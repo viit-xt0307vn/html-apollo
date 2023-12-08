@@ -7,6 +7,7 @@ apolloAccordiones.forEach((e) => {
         apolloAccordiones.forEach((e) => {
             e.querySelector(".apollo-accordion-content").style.height =
                 0 + "px";
+            e.querySelector(".apollo-accordion-title").style.color = "#D0D8DB";
             e.querySelector(".apollo-accordion-content").style.padding =
                 "0 8px";
         });
@@ -14,6 +15,7 @@ apolloAccordiones.forEach((e) => {
             this.querySelector(".apollo-accordiontext-bg").offsetHeight +
             47 +
             "px";
+        e.querySelector(".apollo-accordion-title").style.color = "#2576b9";
         this.querySelector(".apollo-accordion-content").style.padding =
             "8px 8px 39px 8px";
 
