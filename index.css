@@ -317,3 +317,9 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 770px) {
+    .apollo-section {
+        flex-direction: column;
+    }
+}
